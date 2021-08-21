@@ -1,0 +1,326 @@
+{
+    "details" : {
+        "name" : "Charlou E. Nicolas",
+        "image" : "self.jpg",
+        "whatido" : "I was a Developer, Ad Trafficker and a Quality Assurance Specialist but now I just develop games as a hobby. I still take interviews in search of a great team & projects that interest me."
+    },
+    "contacts" : [
+        { 
+            "type" : "email",
+            "icon" : "email",
+            "value" : "chalnicol@gmail.com" 
+        },
+        { 
+            "type" : "mobile",
+            "icon" : "smartphone",
+            "value" : "(063) 916-635-1839" 
+        },
+        { 
+            "type" : "landline",
+            "icon" : "call",
+            "value" : "(02) 8-584-77-11" 
+        },
+        { 
+            "type" : "home",
+            "icon" : "home",
+            "value" : "Sacred Heart Village, Caloocan City 1400" 
+        }
+        
+    ],
+    "socialmedia" : [
+
+        {
+            "name" : "Facebook",
+            "img" : "Facebook.png",
+            "link" : "https://www.facebook.com/charlou.nicolas/"
+        },
+        {
+            "name" : "Instragram",
+            "img" : "Instagram.png",
+            "link" : "https://www.instagram.com/chalnicol/"
+        },
+        {
+            "name" : "Twitter",
+            "img" : "Twitter.png",
+            "link" : "https://twitter.com/Chalnicol"
+        }
+        
+    ],
+    "skills" : {
+
+        "programming" : {
+
+            "title" : "Programming Languages Proficiency",
+
+            "tech" : [
+
+                {
+                    "title" : "HTML5",
+                    "img" : "html5.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "CSS3",
+                    "img" : "css3.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "Javascript",
+                    "img" : "js.jpg",
+                    "proficiency" : "advanced"
+                },
+                
+                {
+                    "title" : "JQuery",
+                    "img" : "jquery.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "Bootstrap",
+                    "img" : "bootstrap.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "PHP",
+                    "img" : "php.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "Laravel",
+                    "img" : "laravel.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "Codeigniter",
+                    "img" : "codeigniter.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "MySQL",
+                    "img" : "mysql.jpg",
+                    "proficiency" : "advanced"
+                },
+                {
+                    "title" : "Java",
+                    "img" : "java.jpg",
+                    "proficiency" : "intermediate"
+                },
+                {
+                    "title" : "SocketIO",
+                    "img" : "socketio.jpg",
+                    "proficiency" : "intermediate"
+                },
+                {
+                    "title" : "Phyton",
+                    "img" : "phyton.jpg",
+                    "proficiency" : "beginner"
+                },
+                {
+                    "title" : "VueJS",
+                    "img" : "vuejs.jpg",
+                    "proficiency" : "beginner"
+                },
+                {
+                    "title" : "MongoDB",
+                    "img" : "mongodb.jpg",
+                    "proficiency" : "beginner"
+                },
+                {
+                    "title" : "NodeJS",
+                    "img" : "nodejs.jpg",
+                    "proficiency" : "beginner"
+                },
+                {
+                    "title" : "GSAP",
+                    "img" : "gsap.jpg",
+                    "proficiency" : "beginner"
+                }
+            ]
+
+        }
+    },
+    "recentwork" : [
+        {
+            "img" : "image1.png",
+            "title" : "Connect Four",
+            "description" : "HTML5 Game",
+            "cta" : "Play This Game",
+            "link" : "https://connectfour2021.herokuapp.com/"
+        },
+        {
+            "img" : "image2.png",
+            "title" : "Salpakan",
+            "description" : "HTML5 Game",
+            "cta" : "Play This Game",
+            "link" : "https://salpakan-2017.herokuapp.com/"
+        },
+        {
+            "img" : "image3.png",
+            "title" : "Block Puzzle",
+            "description" : "HTML5 Game",
+            "cta" : "Play This Game",
+            "link" : "https://blockpuzzle-2020.herokuapp.com/"
+        },
+        {
+            "img" : "image5.png",
+            "title" : "DoorDash",
+            "description" : "Ad",
+            "cta" : "Go to Page",
+            "link" : "https://chalnicol.tech/assets/ads/samplebanner/"
+        }
+    ],
+    "workhistory" : [
+        
+        {
+            "date" : {
+                "to" : "Present",
+                "from" : "June 2021"
+            },
+            
+            "company" : "Candy Banners",
+            "job_title" : "Creatives Production Specialist",
+            "job_desc" : [
+                "Assist or take lead in the development and implementation of creative ad solutions.",
+                "Build animated and interactive HTML5 ads using assets provided from our creative team.",
+                "Adhere to brand guidelines when building interactive ads.",
+                "Work with online HTML5 mobile ad builders, JavaScript libraries and APIs to build mobile ads.",
+                "Research and ideate new ways to enhance the mobile advertising experience by leveraging various JavaScript libraries.",
+                "Collaborate with other developers, designers, and cross-functional team members.",
+                "Interact with Project Managers and Account Managers."
+            ]
+        },
+        {
+            "date" : {
+                "to" : "June 2021",
+                "from" : "September 2015"
+            },
+            
+            "company" : "",
+            "job_title" : "Freelance PHP/JS Developer",
+            "job_desc" : [
+                "Handles custom development/programming tasks that requires JS/PHP scripting."
+            ]
+        },
+
+        {
+            "date" : {
+                "to" : "September 2015",
+                "from" : "May 2014"
+            },
+            
+            "company" : "StrikeVideo",
+            "job_title" : "Quality Assurance Specialist",
+            "job_desc" : [
+                "QA’d all ad units created by StrikeVideo, mostly interstitial video.",
+                "Made sure all ad units have been tested, all requirements met to their respected live environments."
+            ]
+        },
+
+        {
+            "date" : {
+                "to" : "May 2014",
+                "from" : "December 2012"
+            },
+            
+            "company" : "StrikeVideo",
+            "job_title" : "Ad Operations Trafficker",
+            "job_desc" : [
+                "Pulls availability forecast.",
+                "Traffics ads in Appnexus, Rubicon and AdWords; familiar with 3rd party vendors such as DFA, Mediamind, FlashTalking and Pointroll.",
+                "QAs creative tags before setting them live.",
+                "Works with Account Management in applying optimizations to live campaigns to ensure full delivery.",
+                "Troubleshoots site issues and works with Tech Support to resolve the issue."
+            ]
+        },
+
+        {
+            "date" : {
+                "to" : "December 2012",
+                "from" : "March 2012"
+            },
+            
+            "company" : "Smart Rover",
+            "job_title" : "Flash Game Developer",
+            "job_desc" : [
+                "Handles custom development/programming tasks that requires Flash scripting."
+            ]
+        },
+
+        {
+            "date" : {
+                "to" : "September 2011",
+                "from" : "April 2011"
+            },
+            
+            "company" : "Wideout Technology",
+            "job_title" : "Technical Expert",
+            "job_desc" : [
+                "Handles rich media escalations and provide solutions in the earliest time possible.",
+                "Handles testing of new rich media products before they are publicly released to production.",
+                "Develops software system using Google technologies that improves/solves production issues."
+            ]
+
+        },
+
+        {
+            "date" : {
+                "to" : "April 2011",
+                "from" : "March 2010"
+            },
+            
+            "company" : "Wideout Technology",
+            "job_title" : "Rich Media Specialist",
+            "job_desc" : [
+                "Handles campaigns from Start to finish (From Development phase up to Client Approval).",
+                "Manages Rich Media Campaigns and Technical Requests assigned to the team.",
+                "Communicates with Campaign Managers, Creative Technical Account Managers with regards to campaign details, escalation, and reporting of bugs found on development."
+            ]
+        },
+
+        {
+            "date" : {
+                "to" : "March 2010",
+                "from" : "December 2009"
+            },
+            
+            "company" : "Wideout Technology",
+            "job_title" : "Rich Media Quality Assurance Specialist",
+            "job_desc" : [
+                "Communicates with the Production Team Lead, QA Lead, and Production Services regarding Rich Media campaigns, issues, and documentation of campaigns.",
+                "Checks and tests various types of ads with different levels of complexity according to site and client specifications."
+            ]
+        },
+
+        {
+            "date" : {
+                "to" : "December 2009",
+                "from" : "December 2008"
+            },
+            
+            "company" : "Wideout Technology",
+            "job_title" : "Senior Rich Media Developer",
+            "job_desc" : [
+                "Communicates with the Team Lead and QA Lead regarding tasks at hand.",
+                "Handled various types of ad formats with different levels of complexity.",
+                "Handled Custom development tasks that requires Web services, scripts and 3rd party APIs.",
+                "Trains newly hired developers in the Production floor."
+            ]
+        },
+
+        {
+            "date" : {
+                "to" : "December 2008",
+                "from" : "December 2007"
+            },
+            
+            "company" : "Wideout Technology",
+            "job_title" : "Junior Rich Media Developer",
+            "job_desc" : [
+                "Converted client-built Flash advertisements to production standards, requiring solid ability to read and comprehend 3rd-party code while adhering to strict best practices. Modified client code to utilize in-house video player and track user interaction.",
+                "Handled Custom development tasks that requires Web services, scripts and 3rd party APIs.",
+                "Trains newly hired developers in the Production floor."
+            ]
+        }
+
+    ]
+} 

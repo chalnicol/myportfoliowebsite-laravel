@@ -1,0 +1,182 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+
+    margin : 0;
+    padding : 0;
+    background-color: #cccccc;
+    height: 100vh;
+    font-family: Poppins, Helvetica, sans-serif
+
+}
+
+.bg-jumbo {
+
+    border-radius: 0 !important;
+    width: 100%;
+
+    background: url('/storage/assets/images/jumbo_img2.png') no-repeat center center / cover;
+
+
+}
+
+.btn-custom1 {
+    background-color: #2b2d42;
+    color : #FBF9F7 !important;
+}
+.btn-custom1:hover {
+    background-color: #383a50;
+}
+
+.btn-custom2 {
+    background-color: #8d99ae;
+    color : #FBF9F7 !important;
+}
+
+.btn-custom2:hover {
+    background-color: #a6adb9;
+}
+
+.btn-custom3 {
+    background-color: #ef233c;
+    color : #FBF9F7 !important;
+}
+
+.btn-custom3:hover {
+    background-color: #eb6d7c;
+}
+
+.bg-custom1 {
+    background-color: #2b2d42;
+}
+.bg-custom2 {
+    background-color: #8d99ae;
+}
+.bg-custom3 {
+    background-color: #edf2f4;
+}
+.bg-custom4 {
+    background-color: #ef233c;
+}
+.bg-custom5 {
+    background-color: #d90429;
+}
+
+.text-custom1 {
+    color : #2b2d42;
+}
+
+.text-custom2 {
+    color : #8d99ae;
+}
+
+.text-custom3 {
+    color : #edf2f4;
+}
+
+
+#whatido {
+    width: 100%;
+    min-height: 230px;
+    overflow: hidden;
+    position : relative;
+}
+
+#mydetails {
+
+    width: 90%;
+    max-width: 980px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+
+#expertise {
+    width: 100%;
+    overflow: hidden;
+    position : relative;
+    /* background-color: red;  */
+}
+
+.bg-anims {
+
+    width: 100%;
+    height : 100%;
+    position: absolute;
+    
+}
+
+.circle {
+
+    width: 80px;
+    height : 80px;
+    background-color: black;
+    border-radius: 50%;
+    position : absolute;
+}
+
+
+.bg-details {
+  width: 100%;
+  background-image: url('/storage/assets//images/check.jpg') no-repeat top left / cover;
+  
+}
+
+
+.card-custom {
+    padding : 0.5rem;
+    margin-bottom : 1rem;
+    width: 100%;
+    max-width: 15rem;
+    border-radius: 0.3rem;
+    background-color: #edf2f4;
+    box-shadow: 1px 1px 5px #404257e3;
+}
+
+.my-hr {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 450px;
+}
+.my-link {
+  
+  color:#f3f3f3;
+}
+
+.my-link:hover{
+  color: #cccccc;
+  text-decoration: none;
+}
+
+#work_cont ul {
+    margin-top: 8px;
+}
+#work_cont ul li {
+    font-size: 1rem;
+}
+
+
+.my-img {
+    border : 1px solid #cccccc;
+    margin-bottom: 0.3rem;
+    margin-left: 0.3rem;
+    max-width: 80px;
+}
+
+@media only screen and (max-width: 412px) {
+    .my-img {
+        max-width: 65px;
+    }
+}
