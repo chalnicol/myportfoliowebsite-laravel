@@ -1,5 +1,5 @@
 @component('mail::message')
-# Message sent by {{ $name }}
+# Message From Site By {{ ucfirst($name ) }}
 
 {{ $msg }}
 

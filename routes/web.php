@@ -28,6 +28,6 @@ Route::post('/sendmail', function (Request $request) {
     Mail::to('chalnicol@gmail.com')
         ->send(new SiteEmailSent($request));
 
-    return redirect('/')->with ('success', 'Message sent successfully. Hope to get back you the soonest');
+    return redirect('/')->with ('success', 'Thank you for your message. Hope to get back to you the soonest.');
 
 });

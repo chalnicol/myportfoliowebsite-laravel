@@ -30,7 +30,7 @@ function loadPage ()
 
     var circlesCount = 10;
 
-    $('#pic').append ('<img src="/storage/assets/images/'+ mydata.details.image +'" alt="self" class="img-fluid img-thumbnail rounded" >');
+    $('#pic').append ('<img src="/assets/images/'+ mydata.details.image +'" alt="self" class="img-fluid img-thumbnail rounded" >');
 
     $('#details').append ('<p class="my-1">'+ mydata.details.whatido + '</p>');
 
@@ -49,7 +49,7 @@ function loadPage ()
 
         for (var i = 0; i < skills.length; i++ ) {
 
-          $('#'+skills[i].proficiency).append ('<img src="/storage/assets/images/skills/'+ skills[i].img +'" alt="'+skills[i].title+'" class="img-fluid rounded my-img">')
+          $('#'+skills[i].proficiency).append ('<img src="/assets/images/skills/'+ skills[i].img +'" alt="'+skills[i].title+'" class="img-fluid rounded my-img">')
 
         }
 
@@ -65,7 +65,7 @@ function loadPage ()
 
           var str = `<div class="col-sm-6 col-md-4 col-lg-3" >
                       <div class="card-custom mx-auto" >
-                        <img class="img-fluid w-100" src="/storage/assets/images/recent/`+ recentWork[i].img +`" alt="Connect Four">
+                        <img class="img-fluid w-100" src="/assets/images/recent/`+ recentWork[i].img +`" alt="Connect Four">
                         <div class="p-2">
                             <h5><strong>`+ recentWork[i].title +`</strong></h5>
                             <p class="px-1">`+ recentWork[i].description +`</p>
@@ -102,7 +102,7 @@ function loadPage ()
                         <div class="col-lg-4 bg-custom1 rounded">
                           <div class="text-white p-2">`+ workHistory[i].date.from +` – `+ workHistory[i].date.to +`</div>
                         </div>
-                        <div class="col-lg-8 bg-custom3 rounded-right">
+                        <div class="col-lg-8 bg-custom4 rounded-right">
                           <small> Company : `+ company +`</small>
                           <h5 class="m-0"><strong>`+ workHistory[i].job_title +`</strong></h5>
                           <ul>`+ desc + `</ul>
@@ -135,7 +135,7 @@ function loadPage ()
 
           var strc = `<div class="mr-2">
                         <a href="`+ socmed[i].link+`" target="_blank">
-                          <img src="/storage/assets/images/socials/`+ socmed[i].img +`" alt="`+ socmed[i].name +`" class="img-fluid" width="50"> 
+                          <img src="/assets/images/socials/`+ socmed[i].img +`" alt="`+ socmed[i].name +`" class="img-fluid" width="50"> 
                         </a>
                       </div>`;
 

@@ -1,27 +1,84 @@
 
 
-@if (session('status'))
+@if (session('info'))
 
+    <div class="sessions">
+        <div class="session-main">
+            <div class="session-title session-title-info">Info!</div>
 
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Success!</strong> {{ session('status') }}
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <div class="session-body">
+                {{session('info')}}
+            </div>
+
+            <div class="session-close">
+                &times;
+            </div>
+        </div>
     </div>
+    <script>
+
+        document.querySelector('.session-close').addEventListener('click', function () {
+            document.querySelector('.sessions').style.display = 'none';
+        });
+    
+    </script>
+    
+
 
 @endif
 
 @if(session('success')) 
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Success!</strong> {{ session('success')}}
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+    <div class="sessions">
+        <div class="session-main">
+            <div class="session-title session-title-success">Success!</div>
+
+            <div class="session-body">
+                {{session('success')}}
+            </div>
+
+            <div class="session-close">
+                &times;
+            </div>
+        </div>
     </div>
+    <script>
+
+        document.querySelector('.session-close').addEventListener('click', function () {
+            document.querySelector('.sessions').style.display = 'none';
+        });
+    
+    </script>
+    
+
 @endif
 
 @if(session('error')) 
 
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        <strong>Error!</strong> {{ session('error')}}
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <div class="sessions">
+        <div class="session-main">
+            <div class="session-title session-title-danger">Error!</div>
+
+            <div class="session-body">
+                {{session('error')}}
+            </div>
+
+            <div class="session-close">
+                &times;
+            </div>
+        </div>
     </div>
+    
+    <script>
+
+        document.querySelector('.session-close').addEventListener('click', function () {
+            document.querySelector('.sessions').style.display = 'none';
+        });
+    
+    </script>
+    
+
+
 @endif
+
 

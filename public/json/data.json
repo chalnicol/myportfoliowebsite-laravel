@@ -166,7 +166,7 @@
             "title" : "DoorDash",
             "description" : "Ad",
             "cta" : "Go to Page",
-            "link" : "https://chalnicol.tech/assets/ads/samplebanner/"
+            "link" : "/ads/banner/"
         }
     ],
     "workhistory" : [

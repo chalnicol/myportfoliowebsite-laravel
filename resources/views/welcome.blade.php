@@ -14,11 +14,13 @@
         <p class="lead">Welcome to my portfolio website.</p>
         <p>
             <!-- <a href="#projects" class="btn btn-outline-secondary btn-lg mx-1 my-2">Get Started</a> -->
-            <a href="#contacts" class="btn btn-custom3 btn-lg mx-1 my-2">Let's Talk</a>
+            <a href="#contacts" class="btn btn-custom2 btn-lg mx-1 my-2">Let's Talk</a>
         </p>
         </div>
 
     </div> 
+
+    @include('inc.sessionmessages')
 
     <section id="whatido">
 
@@ -55,7 +57,7 @@
               <p>Fullstack Developer with primary focus on PHP / HTML5 Games :</p>
             </div>
             <div class="ml-0 ml-lg-3">
-              <a href="{{ url('/storage/assets/pdf/charlounicolas.pdf') }}" class="btn btn-sm btn-custom2" target="_blank">Download Resume</a>
+              <a href="{{ asset('assets/pdf/charlounicolas.pdf') }}" class="btn btn-sm btn-custom3" target="_blank">Download Resume</a>
             </div>
           </div>
 
@@ -130,9 +132,7 @@
     
     </section>
 
-    
     <script src="{{ asset('js/datahandler.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    
 
 @endsection

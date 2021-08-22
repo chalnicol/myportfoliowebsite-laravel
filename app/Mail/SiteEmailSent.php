@@ -31,7 +31,7 @@ class SiteEmailSent extends Mailable
      */
     public function build()
     {
-        return $this->subject('Message Received From ' . $this->content->name )
+        return $this->subject('Message From Site By ' . ucfirst($this->content->name) )
                     ->markdown('emails.received')
                     ->with([
                         'name' => $this->content->name,
