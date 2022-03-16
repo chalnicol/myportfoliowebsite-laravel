@@ -46,7 +46,24 @@
 <body>
 
 
-    <div id="app">
+    <div id="preloader_img" class="h-100" >
+      
+      <div class="d-flex w-100 h-100 bg-white">
+
+        <div class="m-auto" style="width:200px">
+
+          <div class="text-center mb-2">Loading..</div>
+          <div id="pbar" class="border w-100 rounded" style="height:10px;overflow:hidden">
+            <div id="pbar_progress" class="bg-dark h-100" style="width: 2%;" ></div>
+          </div>
+
+        </div>
+
+      </div>
+     
+    </div>
+
+    <div id="app" style="display: none">
        
         <nav class="navbar navbar-expand-lg navbar-dark bg-custom1">
             <a class="navbar-brand" href="#">
@@ -135,6 +152,8 @@
     </div>
 
     <script src="{{ asset('js/disableOnSubmit.js') }}"></script>
+
+    <script src="{{ asset('js/pageloader.js') }}"></script>
 
 
 

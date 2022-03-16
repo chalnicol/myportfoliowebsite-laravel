@@ -98,7 +98,7 @@ function loadPage ()
 
           var company = workHistory[i].company == '' ? 'N/A' : workHistory[i].company;
 
-          var stra = `<div class="row mb-1">
+          var stra = `<div id="work_${ Number(i) + 1 }" class="row mb-1">
                         <div class="col-lg-4 bg-custom1 rounded">
                           <div class="text-white p-2">`+ workHistory[i].date.from +` – `+ workHistory[i].date.to +`</div>
                         </div>
@@ -211,6 +211,27 @@ function activateScrollTrigger () {
     onComplete : () => hoverFunc()
 
   });
+
+  for ( let j in mydata.workhistory ) {
+
+    gsap.from ('#work_' + (Number(j) + 1), {
+
+      scrollTrigger : {
+        trigger : '#work_' + (Number(j) + 1),
+        start : "top 80%",
+      }, 
+  
+      // xPercent : Number(j)%2 == 0 ? '-100' : '100', 
+      y : 30,
+      opacity : 0,
+      duration : 0.8,
+      ease : 'power3.out'
+  
+    });
+
+
+  }
+  
 
 
 }
