@@ -161,12 +161,27 @@
             "cta" : "Play This Game",
             "link" : "https://blockpuzzle-2020.herokuapp.com/"
         },
+        
         {
-            "img" : "image5.png",
-            "title" : "DoorDash",
-            "description" : "Ad",
+            "img" : "image5.jpg",
+            "title" : "Solitaire",
+            "description" : "HTML5 Game",
+            "cta" : "Play this Game",
+            "link" : "/projects/solitaire2020"
+        },
+        {
+            "img" : "image4.jpg",
+            "title" : "Lotto Sim",
+            "description" : "HTML5 Game",
+            "cta" : "Play this Game",
+            "link" : "/projects/lotto2"
+        },
+        {
+            "img" : "image6.jpg",
+            "title" : "CSE Online Reviewer",
+            "description" : "Online Reviewer",
             "cta" : "Go to Page",
-            "link" : "/ads/banner/"
+            "link" : "/projects/cseonlinereviewer"
         }
     ],
     "workhistory" : [

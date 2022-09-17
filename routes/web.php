@@ -25,6 +25,17 @@ Route::get('/', function () {
 
 Route::post('/sendmail', function (Request $request) {
 
+    // return $request;
+    $blackListed = array( 'crytotrume' );
+
+    if ( in_array( strtolower($request->name), $blackListed )) {
+
+        // return redirect('/')->with ('error', 'You are no longer allowed to make emails to this site.');
+        
+        return redirect('/')->with ('success', 'Thank you for your message. Hope to get back to you the soonest.');
+    }
+
+
     Mail::to('chalnicol@gmail.com')
         ->send(new SiteEmailSent($request));
 
